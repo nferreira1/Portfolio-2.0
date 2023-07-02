@@ -11,14 +11,16 @@ const Main = () => {
       <img className='w-full h-screen object-cover object-left scale-x-[-1]' src='' alt='' />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div className='max-w-[700px] m-auto w-full h-screen flex flex-col justify-center items-center lg:items-start '>
-          <h1 className='text-4xl font-bold text-gray-800 sm:text-5xl'>Eu sou o Nathan Ferreira</h1>
-          <h2 className='flex text-2xl text-gray-800 pt-4 sm:text-3xl'>
+          <h1 className='text-3xl font-bold text-gray-800 sm:text-5xl'>Eu sou o Nathan Ferreira</h1>
+          <h2 className='flex text-xl text-gray-800 pt-4 sm:text-3xl'>
             Eu sou um
             <TypeAnimation
               sequence={[
-                'desenvolvedor',
+                'estudante.',
                 1000,
-                'entusiasta de tecnologia',
+                'desenvolvedor.',
+                1000,
+                'entusiasta de tecnologia.',
                 2000,
               ]}
               wrapper='div'
@@ -43,6 +45,7 @@ const Main = () => {
               <FaLinkedin size={20} />
             </a>
           </div>
+
         </div>
       </div>
     </div >
